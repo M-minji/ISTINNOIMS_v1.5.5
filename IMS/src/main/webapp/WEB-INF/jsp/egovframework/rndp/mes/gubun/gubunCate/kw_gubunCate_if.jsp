@@ -89,7 +89,7 @@ function cancel(){
 
 </script>
 
-<form id="frm" name="frm" method="post" action="/mes/gubun/gubunCate/kw_gubunCate_i.do">
+<form id="frm" name="frm" method="post" action="/mes/gubun/gubunCate/kw_gubunCate_i.do" autocomplete="off">
 <input type="hidden" name="pageIndex" id="pageIndex" value="${mesGubunCateVO.pageIndex}" />
 	<input type="hidden" name="recordCountPerPage" id="recordCountPerPage" value="${mesGubunCateVO.recordCountPerPage}" />
 	<input type="hidden" name="searchWord" id="searchWord" value="${mesGubunCateVO.searchWord}" />

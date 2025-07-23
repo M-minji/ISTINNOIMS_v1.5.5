@@ -844,7 +844,7 @@ function setToolTip(){
    	  overflow: hidden !important;
 	}
 </style>
-<form id="frm" name="frm" method="post" enctype="multipart/form-data" action="/mes/issue/kw_issue_u.do"> 
+<form id="frm" name="frm" method="post" enctype="multipart/form-data" action="/mes/issue/kw_issue_u.do" autocomplete="off"> 
  	<input type="hidden" id="eIssueStaffKey" name="eIssueStaffKey" value="${staffVo.kStaffKey}"/>
 	<input type="hidden" id="eIssueStaffName" name="eIssueStaffName" value="${staffVo.kStaffName}"/>
 	<input type="hidden" id="eIssueStatus" name="eIssueStatus" value="${issueInfo.eIssueStatus}" />

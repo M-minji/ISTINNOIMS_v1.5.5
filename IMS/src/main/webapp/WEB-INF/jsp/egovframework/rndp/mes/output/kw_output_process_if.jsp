@@ -277,7 +277,7 @@ function reCirSet(obj){
 }
 </script>
 
-<form id="frm" name="frm" method="post" enctype="multipart/form-data" action="/mes/output/kw_output_process_if.do">
+<form id="frm" name="frm" method="post" enctype="multipart/form-data" action="/mes/output/kw_output_process_if.do" autocomplete="off">
   	<input  type="hidden" id="outputKey" name="outputKey" value="${outputInfo.outputKey}" />
 	<div class="content">
 		<div class="content_tit">

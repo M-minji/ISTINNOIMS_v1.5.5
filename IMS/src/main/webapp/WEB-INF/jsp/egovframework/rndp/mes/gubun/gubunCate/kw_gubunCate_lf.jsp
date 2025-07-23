@@ -52,7 +52,7 @@ tr:hover td {
 </style>
 
 
-<form id="frm" name="frm" method="post" action="/mes/gubun/gubunCate/kw_gubunCate_lf.do">
+<form id="frm" name="frm" method="post" action="/mes/gubun/gubunCate/kw_gubunCate_lf.do" autocomplete="off">
 	<input type="hidden" id="pageIndex" name="pageIndex" value="${mesGubunCateVO.pageIndex}" />
 	<input type="hidden" id="sGubunCateKey" name="sGubunCateKey" value="" />
 	

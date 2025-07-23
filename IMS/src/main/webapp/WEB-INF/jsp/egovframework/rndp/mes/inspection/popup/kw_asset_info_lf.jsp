@@ -57,7 +57,7 @@ function fn_search_detail(){
 
 </script>
 
-<form id="frm" name="frm" method="post" action="/mes/asset/kw_asset_info_lf.do">
+<form id="frm" name="frm" method="post" action="/mes/asset/kw_asset_info_lf.do" autocomplete="off">
 	<input type="hidden" id="pageIndex" name="pageIndex" value="${mesAssetVO.pageIndex}">
 	<input type="hidden" id="searchType" name="searchType" value="${mesAssetVO.searchType}">
 	

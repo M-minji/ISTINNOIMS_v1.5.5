@@ -275,7 +275,7 @@ function excelDwonload(){
 	  font-weight: 400; 
 	}
 </style>
-<form name="listForm" id="listForm" method="post">		
+<form name="listForm" id="listForm" method="post" autocomplete="off">		
 	<input type="hidden" id="pageIndex" name="pageIndex" value="${mesAssetVO.pageIndex}"/>
 	<input type="hidden" id="eReplacedKey" name="eReplacedKey" value="" />
 	<input type="hidden" id="sSignStatus" name="sSignStatus" value="" />

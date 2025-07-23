@@ -77,7 +77,7 @@ td a {
 
 </style>
 
-<form name="listForm" id="listForm">		
+<form name="listForm" id="listForm" autocomplete="off">		
 	<input type="hidden" name="eFieldKey" id="eFieldKey"  value="" />
 	<input type="hidden" name="pageIndex" id="pageIndex" value ="${mesInspectionVO.pageIndex}"/>
 

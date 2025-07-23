@@ -392,7 +392,7 @@ function settingSign(){
    	  overflow: hidden !important;
 	}    
 </style>
-<form id="frm" name="frm" method="post" >
+<form id="frm" name="frm" method="post" autocomplete="off">
   <input  type="hidden" id="eProjectNum" name="eProjectNum" value="${projectInfo.eProjectNum}" />
 	<input type="hidden" id="kStaffKey" name="kStaffKey" value="${staffVO.kStaffKey}" />
 	<input type="hidden" id="sSignStatus" name="sSignStatus" value="" />

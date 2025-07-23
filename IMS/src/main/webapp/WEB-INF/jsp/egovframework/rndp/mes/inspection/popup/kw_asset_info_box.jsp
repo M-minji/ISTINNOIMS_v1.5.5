@@ -163,7 +163,7 @@ function rowCheck(index){
 }
 </script>
 
-<form id="frm" name="frm" method="post" action="/mes/asset/kw_asset_box_lf.do">
+<form id="frm" name="frm" method="post" action="/mes/asset/kw_asset_box_lf.do" autocomplete="off">
 	<input type="hidden" id="pageIndex" name="pageIndex" value="${mesAssetVO.pageIndex}">
 	<input type="hidden" id="searchType" name="searchType" value="${mesAssetVO.searchType}">
 	<input type="hidden" id="ePageInfo" name="ePageInfo" value="${mesAssetVO.ePageInfo}">

@@ -30,7 +30,7 @@ function fn_guestList(pageNo) {
 
 </script>
 
-<form id="frm" name="frm" method="post" action="/mes/user/kw_user_list.do">
+<form id="frm" name="frm" method="post" action="/mes/user/kw_user_list.do" autocomplete="off">
 	<input type="hidden" id="pageIndex" name="pageIndex" value="${mesUserVO.pageIndex}">
 	<input type="hidden" id="searchType" name="searchType" value="${mesUserVO.searchType}">
 	

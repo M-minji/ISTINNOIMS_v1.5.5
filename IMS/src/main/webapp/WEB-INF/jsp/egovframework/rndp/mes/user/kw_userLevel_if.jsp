@@ -30,7 +30,7 @@ function filterNumericOnly(input) {
     input.value = input.value.replace(/[^0-9]/g, '').trim();
 }
 </script>
-<form name="writeForm" id="writeForm">		
+<form name="writeForm" id="writeForm" autocomplete="off">		
 	
 		<div class="content_top">
 			<div class="content_tit">

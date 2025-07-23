@@ -54,7 +54,7 @@ td.gridjs-td:last-child{text-align:center !important;}
 
 
 <body>
-	<form name="searchForm" id="searchForm" method="post" >
+	<form name="searchForm" id="searchForm" method="post" autocomplete="off" >
 		<input name="kPositionKey" id="kPositionKey" type="hidden" />
 	
 		<div class="content_up">

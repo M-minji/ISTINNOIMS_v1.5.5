@@ -32,7 +32,7 @@ function insert_reset(){
 </script>
 </head>
 <body onLoad="document.writeform.name.focus();">
-	<form name="writeform" method="post" 	action="/mes/user/kw_position_i.do">
+	<form name="writeform" method="post" 	action="/mes/user/kw_position_i.do" autocomplete="off">
 			<input name="kPositionRank" id="kPositionRank" type="hidden" value="${newRank}" />
 		
 			<div class="content">

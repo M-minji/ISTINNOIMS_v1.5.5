@@ -252,7 +252,7 @@ function excelDwonload(){
 	  font-weight: 400; 
 	}
 </style>
-<form name="listForm" id="listForm" method="post" action = "/mes/asset/kw_eCondition_lf.do">		
+<form name="listForm" id="listForm" method="post" action = "/mes/asset/kw_eCondition_lf.do" autocomplete="off">		
 	<input type="hidden" id="pageIndex" name="pageIndex" value="${mesAssetVO.pageIndex}"/>
 	<input type="hidden" id="eEntryExitKey" name="eEntryExitKey" value="" />
 	<input type="hidden" id="eStatus" name="eStatus" value="" />

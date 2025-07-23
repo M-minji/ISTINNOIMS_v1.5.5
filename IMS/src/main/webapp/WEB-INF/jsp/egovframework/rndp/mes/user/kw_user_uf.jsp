@@ -318,7 +318,7 @@ function autChange(obj){
   transform: translateX(13px);
 }
 </style>
-<form name="writeForm" id="writeForm">		
+<form name="writeForm" id="writeForm" autocomplete="off">		
 	<input type="hidden" name="mesUserKey" id="mesUserKey" value="${mesUserInfo.mesUserKey}" />
 	<input type="hidden" name="searchType" id="searchType" value="<c:out value='${mesUserVO.searchType}'/>">
 	<input type="hidden" name="searchWord" id="searchWord" value="<c:out value='${mesUserVO.searchWord}'/>">

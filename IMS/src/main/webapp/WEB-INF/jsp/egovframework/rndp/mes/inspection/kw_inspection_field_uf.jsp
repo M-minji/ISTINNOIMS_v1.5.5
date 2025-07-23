@@ -61,7 +61,7 @@ function fieldDel() {
 }
 
 </script>
-<form name="writeForm" id="writeForm" method="post">		
+<form name="writeForm" id="writeForm" method="post" autocomplete="off">		
 	
 		<div class="content_top">
 			<div class="content_tit">

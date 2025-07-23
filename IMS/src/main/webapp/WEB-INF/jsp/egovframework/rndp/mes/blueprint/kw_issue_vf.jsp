@@ -393,7 +393,7 @@ window.addEventListener("DOMContentLoaded", function () {
    	  overflow: hidden !important;
 	}    
 </style>
-<form id="frm" name="frm" method="post" enctype="multipart/form-data" >
+<form id="frm" name="frm" method="post" enctype="multipart/form-data" autocomplete="off">
 	<input type="hidden" id="pageIndex" name="pageIndex" value="${mesBlueprintVO.pageIndex}" />
 	<input type="hidden" id="recordCountPerPage" name="recordCountPerPage" value="${mesBlueprintVO.recordCountPerPage}" />
 	<input type="hidden" id="searchWord" name="searchWord" value="${mesBlueprintVO.searchWord}" />

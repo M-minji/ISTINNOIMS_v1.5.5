@@ -605,7 +605,7 @@ window.addEventListener("DOMContentLoaded", function () {
    	  overflow: hidden !important;
 	}    
 </style>
-<form name="frm" id="frm" method="post" enctype="multipart/form-data">
+<form name="frm" id="frm" method="post" enctype="multipart/form-data" autocomplete="off">
 	<input type="hidden" name="pageIndex" id="pageIndex" value="${mesAssetVO.pageIndex}" />
 	<input type="hidden" name="recordCountPerPage" id="recordCountPerPage" value="${mesAssetVO.recordCountPerPage}" />
 	<input type="hidden" name="searchTypeSet1" id="searchTypeSet1" value="${mesAssetVO.searchTypeSet1}" />

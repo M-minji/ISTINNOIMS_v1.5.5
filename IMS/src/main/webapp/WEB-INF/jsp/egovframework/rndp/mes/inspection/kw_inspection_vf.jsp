@@ -700,7 +700,7 @@ window.addEventListener("DOMContentLoaded", function () {
    	  overflow: hidden !important;
 	}    
 </style>
-<form name="writeForm" id="writeForm" method="post" enctype="multipart/form-data">
+<form name="writeForm" id="writeForm" method="post" enctype="multipart/form-data" autocomplete="off">
 	<input type="hidden" name="pageIndex" id="pageIndex" value="${mesInspectionVO.pageIndex}" />
 	<input type="hidden" name="recordCountPerPage" id="recordCountPerPage" value="${mesInspectionVO.recordCountPerPage}" />
 	<input type="hidden" name="eInspectionKey" id="eInspectionKey" value="${selInfo.eInspectionKey}" />
