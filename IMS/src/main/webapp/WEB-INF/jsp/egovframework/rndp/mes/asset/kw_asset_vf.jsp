@@ -482,7 +482,7 @@ input[name="tab_item"] {
    	  overflow: hidden !important;
 	}    
 </style> 
-<form id="frm" name="frm" method="post" enctype="multipart/form-data">
+<form id="frm" name="frm" method="post" enctype="multipart/form-data" autocomplete="off">
 	<input  type="hidden" id="eAssetKey" name="eAssetKey" value="${assetInfo.eAssetKey}" />
 	<input type="hidden" name="searchWord" id="searchWord" value="${mesAssetVO.searchWord}">
 	<input type="hidden" name="pageIndex" id="pageIndex" value="${mesAssetVO.pageIndex}" />

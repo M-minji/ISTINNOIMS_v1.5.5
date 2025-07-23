@@ -237,7 +237,7 @@ function clearInput(inputId) {
 <style>
   
 </style>
-<form name="listForm" id="listForm" method="post" action = "/mes/asset/kw_asset_lf.do">		
+<form name="listForm" id="listForm" method="post" action = "/mes/asset/kw_asset_lf.do" autocomplete="off">		
 	<input type="hidden" id="pageIndex" name="pageIndex" value="${mesAssetVO.pageIndex}"/>
 	<input type="hidden" id="eAssetKey" name="eAssetKey" value="" />
 	

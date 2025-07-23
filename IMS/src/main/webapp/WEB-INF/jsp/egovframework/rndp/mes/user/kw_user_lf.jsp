@@ -127,7 +127,7 @@ function mesSetPass(key){
 td.gridjs-td:last-child{text-align:center !important;} 
 </style>
 
-<form name="listForm" id="listForm" action="/mes/user/kw_user_lf.do"  method="post">		
+<form name="listForm" id="listForm" action="/mes/user/kw_user_lf.do"  method="post" autocomplete="off">		
 	<input type="hidden" name="mesUserKey" id="mesUserKey"  value="" />
 	<input type="hidden" name="pageIndex" id="pageIndex" value ="${mesUserVO.pageIndex}"/>
 

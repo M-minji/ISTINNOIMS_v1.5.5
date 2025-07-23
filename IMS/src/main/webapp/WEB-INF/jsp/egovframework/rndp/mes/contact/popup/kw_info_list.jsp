@@ -34,7 +34,7 @@ function fn_guestList(pageNo) {
 
 </script>
 
-<form id="frm" name="frm" method="post" action="/mes/contact/kw_info_list.do" class="popup_wrap">
+<form id="frm" name="frm" method="post" action="/mes/contact/kw_info_list.do" class="popup_wrap" autocomplete="off">
 	<input type="hidden" id="pageIndex" name="pageIndex" value="${mesContactVO.pageIndex}">
 	<input type="hidden" id="searchType" name="searchType" value="${mesContactVO.searchType}">
 	

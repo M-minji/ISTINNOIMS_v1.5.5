@@ -51,7 +51,7 @@ function checkPwd_go(){
 </script>
 
 		
-<form name="userInfoForm" id="userInfoForm" method="post" onsubmit="return false">
+<form name="userInfoForm" id="userInfoForm" method="post" onsubmit="return false" autocomplete="off">
 	<input type="hidden" name="shMemberKey" id="shMemberKey" value="${vo.kStaffKey}" />
 	<input type="hidden" name="shMemberId" id="shMemberId" value="${vo.kStaffId}" />
 		

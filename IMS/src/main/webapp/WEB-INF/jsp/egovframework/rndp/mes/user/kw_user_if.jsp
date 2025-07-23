@@ -74,7 +74,7 @@ function adminIn(){
 }
 }
 </script>
-<form name="writeForm" id="writeForm">		
+<form name="writeForm" id="writeForm" autocomplete="off">		
 	<input type="hidden" name="searchType" id="searchType" value="<c:out value='${mesUserVO.searchType}'/>">
 	<input type="hidden" name="searchWord" id="searchWord" value="<c:out value='${mesUserVO.searchWord}'/>">
 	<input type="hidden" name="pageIndex" id="pageIndex" value="<c:out value='${mesUserVO.pageIndex}'/>">

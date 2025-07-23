@@ -98,7 +98,7 @@ function addRow() {
 
 </script>
 
-<form id="frm" name="frm" method="post" action="/mes/gubun/kw_gubun_i.do">
+<form id="frm" name="frm" method="post" action="/mes/gubun/kw_gubun_i.do" autocomplete="off">
 	<input type="hidden" name="pageIndex" id="pageIndex" value="${mesGubunVO.pageIndex}" />
 	<input type="hidden" name="recordCountPerPage" id="recordCountPerPage" value="${mesGubunVO.recordCountPerPage}" />
 	<input type="hidden" name="searchWord" id="searchWord" value="${mesGubunVO.searchWord}" />

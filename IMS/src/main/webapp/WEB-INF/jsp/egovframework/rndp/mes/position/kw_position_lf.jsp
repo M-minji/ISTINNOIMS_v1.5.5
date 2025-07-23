@@ -244,7 +244,7 @@
 </head>
 
 <body>
-	<form name="frm" id="frm" method="post" >
+	<form name="frm" id="frm" method="post" autocomplete="off" >
 		<input type="hidden" id="kPositionKey" name="kPositionKey"/>
 		<input type="hidden" id="kPositionUpKeySave" name="kPositionUpKeySave" value="${mesPositionVO.kPositionUpKeySave}"/>
 		<input type="hidden" id="kPositionUpName" name="kPositionUpName" value="${mesPositionVO.kPositionUpName}"/>

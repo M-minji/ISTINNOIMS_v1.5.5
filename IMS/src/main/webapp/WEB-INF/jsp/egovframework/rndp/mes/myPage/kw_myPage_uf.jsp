@@ -270,7 +270,7 @@ function databaseDelete(){
 </script>
 <body class="content_bg" >
 	
-<form name="writeform" method="post" action="/mes/myPage/kw_myPage_u.do">
+<form name="writeform" method="post" action="/mes/myPage/kw_myPage_u.do" autocomplete="off">
 	<input type="hidden" id="kStaffKey" name="kStaffKey" value="<c:out value='${vo.kStaffKey}' />">
 	<input type="hidden" id="kStaffSectorKey" name="kStaffSectorKey" value="${vo.kStaffSectorKey}" />
 

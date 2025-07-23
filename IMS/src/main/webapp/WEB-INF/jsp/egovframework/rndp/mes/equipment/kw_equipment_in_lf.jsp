@@ -247,7 +247,7 @@ function excelDwonload(){
 	  font-weight: 400; 
 	}
 </style>
-<form name="listForm" id="listForm" method="post" action = "/mes/equipment/kw_equipment_in_lf.do">		
+<form name="listForm" id="listForm" method="post" action = "/mes/equipment/kw_equipment_in_lf.do" autocomplete="off">		
 	<input type="hidden" id="pageIndex" name="pageIndex" value="${mesEquipmentVO.pageIndex}"/>
 	<input type="hidden" id="eEquipmentInKey" name="eEquipmentInKey" value="" />
 	<input type="hidden" id="eStatus" name="eStatus" value="" />

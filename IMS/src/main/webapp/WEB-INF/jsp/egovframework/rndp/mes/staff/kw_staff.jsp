@@ -81,7 +81,7 @@ function selectStaffKey(obj){
 </head>
 
 <body>
-<form name="searchform" method="post" action="/mes/staff/kw_staff.do">
+<form name="searchform" method="post" action="/mes/staff/kw_staff.do" autocomplete="off">
 	<input type="hidden" name="index" id="index" value="<c:out value='${mesStaffVO.index}' />">
 	
 	<div class="pop_head">

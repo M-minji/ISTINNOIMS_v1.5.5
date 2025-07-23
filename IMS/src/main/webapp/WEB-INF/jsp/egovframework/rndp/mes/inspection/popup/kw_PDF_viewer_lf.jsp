@@ -30,12 +30,12 @@ $(document).ready(function(){
 
 </script>
 
-<form id="frm" name="frm" method="post" enctype="multipart/form-data">
+<form id="frm" name="frm" method="post" enctype="multipart/form-data" autocomplete="off">
 
     <div class="pop_head">
         <div id="pop_head">
             <div class="tit">
-                <h3>PDF Viewer Pop</h3>
+                <h3>PDF Viewer</h3>
             </div>
             <a href="javascript:self.close();"><img src="/images/btn/close.gif" width="22" height="21" /></a>
         </div>  

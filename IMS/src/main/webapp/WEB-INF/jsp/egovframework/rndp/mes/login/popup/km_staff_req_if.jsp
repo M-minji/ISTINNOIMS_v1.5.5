@@ -291,7 +291,7 @@ function samePassword(){
 		<div class="pop_head">
 			<div id="pop_head">
 				<div class="tit">
-					<h3>사용자 등록 신청</h3>
+					<h3>사용자 등록 신청?</h3>
 				</div>
 			</div>
 		</div>
@@ -299,7 +299,7 @@ function samePassword(){
 		<div class="popup_content">
 			<div class="pop_con">
 				<div class="normal_table row">
-					<form name="writeform" method="post" action="/popup/mes/checkStaffId.do">
+					<form name="writeform" method="post" action="/popup/mes/checkStaffId.do" autocomplete="off">
 						<!-- 무조건 재직 -->
 					<input type="hidden" name="stateFlag" value="1">
 					

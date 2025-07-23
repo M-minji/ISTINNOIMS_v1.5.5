@@ -287,7 +287,7 @@ function excelDwonload(){
 	  font-weight: 400; 
 	}
 </style>
-<form id="frm" name="frm" method="post" action="/mes/project/kw_project_lf.do">
+<form id="frm" name="frm" method="post" action="/mes/project/kw_project_lf.do" autocomplete="off">
 	<input type="hidden" id="pageIndex" name="pageIndex" value="${mesProjectVO.pageIndex}">
 	 
 	<input type="hidden" id="eProjectNum" name="eProjectNum" value="" />

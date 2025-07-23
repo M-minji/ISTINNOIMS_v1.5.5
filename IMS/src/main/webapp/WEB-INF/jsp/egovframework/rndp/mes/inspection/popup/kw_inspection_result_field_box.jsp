@@ -125,7 +125,7 @@ function rowCheck(index){
 
 </script>
 
-<form id="frm" name="frm" method="post" action="/mes/inspection/kw_inspection_field_box.do" class="popup_wrap">
+<form id="frm" name="frm" method="post" action="/mes/inspection/kw_inspection_field_box.do" class="popup_wrap" autocomplete="off">
 	<input type="hidden" id="pageIndex" name="pageIndex" value="${mesInspectionVO.pageIndex}">
 	<input type="hidden" id="searchType" name="searchType" value="${mesInspectionVO.searchType}">
 	<input type="hidden" id="ePageInfo" name="ePageInfo" value="${mesInspectionVO.ePageInfo}">

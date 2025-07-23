@@ -108,7 +108,7 @@ function decodeHtmlEntities(str) {
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <html>
 	<body>
-	<form name="writeform" id="writeform" method="post" >
+	<form name="writeform" id="writeform" method="post" autocomplete="off" >
 			
 	
 		<div class="content_top">

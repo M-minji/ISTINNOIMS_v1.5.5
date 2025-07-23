@@ -142,7 +142,7 @@
 	}
 </style>
 
-<form id="frm" name="frm" method="post" action="/mes/statistics/kw_asset_tmp_lf.do">
+<form id="frm" name="frm" method="post" action="/mes/statistics/kw_asset_tmp_lf.do" autocomplete="off">
 	
 	<div class="content_top">
 		<div class="content_tit">

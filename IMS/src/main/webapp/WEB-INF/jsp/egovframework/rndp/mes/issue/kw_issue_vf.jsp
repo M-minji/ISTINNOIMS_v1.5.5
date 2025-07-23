@@ -597,7 +597,7 @@ window.addEventListener("DOMContentLoaded", function () {
    	  overflow: hidden !important;
 	}    
 </style>
-<form id="frm" name="frm" method="post" enctype="multipart/form-data">
+<form id="frm" name="frm" method="post" enctype="multipart/form-data" autocomplete="off">
 	<input type="hidden" id="pageIndex" name="pageIndex" value="${mesIssueVO.pageIndex}" />
 	<input type="hidden" id="recordCountPerPage" name="recordCountPerPage" value="${mesIssueVO.recordCountPerPage}" />
 	<input type="hidden" id="topStartDate" name="topStartDate" value="${mesIssueVO.topStartDate}" />

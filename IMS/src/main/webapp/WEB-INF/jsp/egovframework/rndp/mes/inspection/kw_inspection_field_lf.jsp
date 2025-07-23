@@ -43,7 +43,7 @@ $(document).ready(function() {
 <style>
 td.gridjs-td{padding:.7rem;}
 </style>              
-<form id="frm" name="frm" method="post">
+<form id="frm" name="frm" method="post" autocomplete="off">
 	<input type="hidden" id="pageIndex" name="pageIndex" value="${mesInspectionVO.pageIndex}" />
 	
 	<input type="hidden" id="eFieldKey" name="eFieldKey" value="" />

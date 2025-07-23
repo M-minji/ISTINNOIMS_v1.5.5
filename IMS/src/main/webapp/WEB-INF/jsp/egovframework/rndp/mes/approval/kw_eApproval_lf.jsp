@@ -94,7 +94,7 @@ $(document).ready(function(){
 	td.gridjs-td:nth-child(n+6):nth-child(-n+7) {text-align:center !important;} 
 </style>
 
-<form id="frm" name="frm" method="post" >
+<form id="frm" name="frm" method="post" autocomplete="off">
 	<input type="hidden" id="pageIndex" name="pageIndex" value="${mesApprovalVO.pageIndex}" />
 	<c:forEach var='list' items='${nameList}'>
 		<input type="hidden"  name="${list.eKeyName}" value="" />

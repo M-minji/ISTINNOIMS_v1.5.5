@@ -91,7 +91,7 @@ function mesIMGregInsert() {
 }    
 </style>
 
-<form id="frm" name="frm" method="post"   action="/mes/asset/kw_eImport_update.do" class="popup_wrap">
+<form id="frm" name="frm" method="post"   action="/mes/asset/kw_eImport_update.do" class="popup_wrap" autocomplete="off">
 	<div class="pop_head">
 		<div id="pop_head">
 			<div class="tit">

@@ -168,7 +168,7 @@ function dataUpdate(key){
         text-align: left;
     }
 </style>
-<form name="listForm" id="listForm" method="post" action = "/mes/asset/kw_Software_Register_lf.do">		
+<form name="listForm" id="listForm" method="post" action = "/mes/asset/kw_Software_Register_lf.do" autocomplete="off">		
 	<input type="hidden" id="pageIndex" name="pageIndex" value="${mesAssetVO.pageIndex}"/>
 	<input type="hidden" id="eSWRegisterKey" name="eSWRegisterKey" value="" />
 	

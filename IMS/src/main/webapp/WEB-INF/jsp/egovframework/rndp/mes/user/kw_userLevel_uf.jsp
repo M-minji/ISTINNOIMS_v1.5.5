@@ -25,7 +25,7 @@ function memberUp(){
 		});
 }
 </script>
-<form name="writeForm" id="writeForm">		
+<form name="writeForm" id="writeForm" autocomplete="off">		
 	<input type="hidden" name="kClassKey" id="kClassKey" value="${classInfo.kClassKey }" />
 	
 		<div class="content_top">
