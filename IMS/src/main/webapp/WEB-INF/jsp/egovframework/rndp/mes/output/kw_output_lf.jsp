@@ -219,7 +219,7 @@ function eReport_update(eProjectNum){
  
 </script>
 
-<form id="frm" name="frm" method="post" action="/mes/output/kw_output_lf.do">
+<form id="frm" name="frm" method="post" action="/mes/output/kw_output_lf.do" autocomplete="off">
 	<input type="hidden" id="pageIndex" name="pageIndex" value="${mesOutputVO.pageIndex}">
 	 
 	<input type="hidden" id="outputKey" name="outputKey" value="" />

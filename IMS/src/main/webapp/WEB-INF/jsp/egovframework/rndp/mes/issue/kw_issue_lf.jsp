@@ -247,7 +247,7 @@ $(document).ready(function(){
   }
 }
 </style>
-<form id="frm" name="frm" method="post" >
+<form id="frm" name="frm" method="post"  autocomplete="off">
 	<input type="hidden" id="pageIndex" name="pageIndex" value="${mesIssueVO.pageIndex}" />
 	
 	<input type="hidden" id="gubun" name="gubun" value="N" />

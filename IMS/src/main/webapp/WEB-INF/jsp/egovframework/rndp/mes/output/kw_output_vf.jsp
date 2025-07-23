@@ -260,7 +260,7 @@ function process_go(key){
 }
 </script>
 
-<form id="frm" name="frm" method="post" >
+<form id="frm" name="frm" method="post" autocomplete="off">
   	<input  type="hidden" id="outputKey" name="outputKey" value="${outputInfo.outputKey}" />
 	<input type="hidden" id="sSignKey" name="sSignKey" value="${outputInfo.sSignKey}" />
 	<input type="hidden" id="kStaffKey" name="kStaffKey" value="${staffVo.kStaffKey}" />

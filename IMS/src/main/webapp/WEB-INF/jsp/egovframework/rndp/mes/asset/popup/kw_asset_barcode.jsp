@@ -121,7 +121,7 @@ function barcodeCr(){
 </head>
 
 <body>
-<form id="frm" name="frm" method="post" class="popup_wrap">
+<form id="frm" name="frm" method="post" class="popup_wrap" autocomplete="off">
 		<div class="pop_head">
 			<div id="pop_head">
 				<div class="tit">

@@ -330,7 +330,7 @@ function approvalPop(){
    	  overflow: hidden !important;
 }    
 </style>
-<form id="frm" name="frm" method="post" enctype="multipart/form-data">
+<form id="frm" name="frm" method="post" enctype="multipart/form-data" autocomplete="off">
   	<input type="hidden" id="oSignPass" name="oSignPass" value="" />
 	<div class="content_top">
 		<div class="content_tit">

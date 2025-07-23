@@ -206,7 +206,7 @@ function excelDwonload(){
 	}
 </style>
 
-<form id="frm" name="frm" method="post" action="/mes/blueprint/kw_issue_lf.do">
+<form id="frm" name="frm" method="post" action="/mes/blueprint/kw_issue_lf.do" autocomplete="off">
 	<input type="hidden" id="pageIndex" name="pageIndex" value="${mesBlueprintVO.pageIndex}" />
 	<input type="hidden" id="eIssueKey" name="eIssueKey" />
 	<input type="hidden" id="sSignStatus" name="sSignStatus" />

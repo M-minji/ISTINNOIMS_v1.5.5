@@ -253,7 +253,7 @@ function excelDwonload(){
 	  font-weight: 400; 
 	}
 </style>
-<form name="frm" id="frm" method="post" >
+<form name="frm" id="frm" method="post" autocomplete="off">
 	<input type="hidden" id="pageIndex" name="pageIndex" value="${mesInspectionVO.pageIndex}"/>
 	<input type="hidden" id="eInspectionKey" name="eInspectionKey" value="" />
 	<input type="hidden" id="sSignStatus" name="sSignStatus" value="" />

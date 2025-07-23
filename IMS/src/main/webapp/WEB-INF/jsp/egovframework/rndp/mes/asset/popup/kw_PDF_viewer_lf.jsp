@@ -35,7 +35,7 @@ function eDownload(){
 }
 </script>
 
-<form id="frm" name="frm" method="post" enctype="multipart/form-data">
+<form id="frm" name="frm" method="post" enctype="multipart/form-data" autocomplete="off">
     <div class="pop_head">
         <div id="pop_head">
             <div class="tit">

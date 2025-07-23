@@ -68,7 +68,7 @@ td.gridjs-td{padding:.7rem;}
 
 
 </style>              
-<form id="frm" name="frm" method="post" action="/mes/gubun/kw_gubun_lf.do">
+<form id="frm" name="frm" method="post" action="/mes/gubun/kw_gubun_lf.do" autocomplete="off">
 	<input type="hidden" id="pageIndex" name="pageIndex" value="${mesGubunVO.pageIndex}" />
 	
 	<input type="hidden" id="sGubunKey" name="sGubunKey" value="" />

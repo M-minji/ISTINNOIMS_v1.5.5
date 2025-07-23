@@ -52,7 +52,7 @@ function mesUserResInsert(key){
 }
 
 </script>
-<form name="writeForm" id="writeForm">		
+<form name="writeForm" id="writeForm" autocomplete="off">		
 	<input type="hidden" name="mesUserRequestKey" id="mesUserRequestKey" value="${mesUserInfo.mesUserRequestKey}" />
 	
 	

@@ -272,7 +272,7 @@ function samePassword(){
 </style>
 <body onLoad="javascript:insert_close(); ">
 	<!-- document.writeform.id.focus(); -->
-<form name="writeform" method="post" action="/popup/checmesUserId.do" class="popup_wrap">
+<form name="writeform" method="post" action="/popup/checmesUserId.do" class="popup_wrap" autocomplete="off">
 	<!-- 무조건 재직 -->
 <!-- 	<input type="hidden" name="stateFlag" value="1"> -->
 	<input type="hidden" name="mesUserStateFlag" value="1">

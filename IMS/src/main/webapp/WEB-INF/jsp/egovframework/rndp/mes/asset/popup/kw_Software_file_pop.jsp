@@ -164,7 +164,7 @@ function fileExtCheckTwo(obj){
 </script>
 
 
-<form id="frm" name="frm" method="post"  enctype="multipart/form-data"  action="/mes/asset/popup/sw_file_insert.do" class="popup_wrap">
+<form id="frm" name="frm" method="post"  enctype="multipart/form-data"  action="/mes/asset/popup/sw_file_insert.do" class="popup_wrap" autocomplete="off">
 	<input type="hidden" name='kStaffKey' id='kStaffKey' value='${staffVO.kStaffKey }'>  
 	<input type="hidden" name="csrfToken" value="${sessionScope.csrfToken}"/>
 	

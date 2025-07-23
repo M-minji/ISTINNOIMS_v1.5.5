@@ -166,7 +166,7 @@ $("#eIMGregName"+btnGubun).val(eNAME);
 
 </script>
 
-<form id="frm" name="frm" method="post" >
+<form id="frm" name="frm" method="post" autocomplete="off">
   	<input  type="hidden" id="outputKey" name="outputKey" value="${outputInfo.outputKey}" />
   
 	<div class="content">

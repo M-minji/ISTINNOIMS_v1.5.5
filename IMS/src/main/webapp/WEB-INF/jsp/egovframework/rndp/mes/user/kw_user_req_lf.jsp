@@ -56,7 +56,7 @@ td.gridjs-td:last-child{text-align:center !important;}
 th.gridjs-th{padding: .7rem;}
 td.gridjs-td{padding: .7rem;} 
 </style>
-<form name="listForm" id="listForm">		
+<form name="listForm" id="listForm" autocomplete="off">		
 	<input type="hidden" name="mesUserRequestKey" id="mesUserRequestKey" />
 	<input type="hidden" id="pageIndex" name="pageIndex" value="${mesUserVO.pageIndex}" />
 	

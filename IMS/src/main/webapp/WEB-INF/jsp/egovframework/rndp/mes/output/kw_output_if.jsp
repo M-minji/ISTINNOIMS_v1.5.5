@@ -327,7 +327,7 @@ function reCirSet(obj){
 }
 </script>
 
-<form id="frm" name="frm" method="post" enctype="multipart/form-data" action="/mes/output/kw_output_if.do">
+<form id="frm" name="frm" method="post" enctype="multipart/form-data" action="/mes/output/kw_output_if.do" autocomplete="off">
   	<input type="hidden" id="oSignPass" name="oSignPass" value="" />
 
 	<div class="content">

@@ -45,7 +45,7 @@ function nowDate(){
 </script>
 
 
-<form id="frm" name="frm" method="post"  enctype="multipart/form-data"  class="popup_wrap">
+<form id="frm" name="frm" method="post"  enctype="multipart/form-data"  class="popup_wrap" autocomplete="off">
 	<div class="pop_head">
 		<div id="pop_head">
 			<div class="tit">

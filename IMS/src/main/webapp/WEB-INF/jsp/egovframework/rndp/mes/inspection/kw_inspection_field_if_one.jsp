@@ -53,7 +53,7 @@ function fieldIn(){
 	document.writeForm.submit();
 }
 </script>
-<form name="writeForm" id="writeForm">		
+<form name="writeForm" id="writeForm" autocomplete="off">		
 	
 	<div class="content_top">
 		<div class="content_tit">

@@ -42,7 +42,7 @@
 <style>
 td.gridjs-td:last-child{text-align:center !important;} 
 </style>
-<form name="listForm" id="listForm">	
+<form name="listForm" id="listForm" autocomplete="off">	
 <input type="hidden" name="kClassKey" id="kClassKey" />	
 
 	<div class="content_top">

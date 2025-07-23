@@ -214,7 +214,7 @@ function selectRow(key) {
 }
 </script>
 
-<form id="frm" name="frm" method="post" action="/mes/asset/popup/kw_license_pop.do" class="popup_wrap">
+<form id="frm" name="frm" method="post" action="/mes/asset/popup/kw_license_pop.do" class="popup_wrap" autocomplete="off">
 	<input type="hidden" id="pageIndex" name="pageIndex" value="${mesAssetVO.pageIndex}">
 	<input type="hidden" id="searchType" name="searchType" value="${mesAssetVO.searchType}">
 	<input type="hidden" id="ePageInfo" name="ePageInfo" value="${mesAssetVO.ePageInfo}">

@@ -124,7 +124,7 @@ function addRow() {
 
 </script>
 
-<form id="frm" name="frm" method="post" action="/mes/inspection/kw_inspection_field_i.do">
+<form id="frm" name="frm" method="post" action="/mes/inspection/kw_inspection_field_i.do" autocomplete="off">
 	<input type="hidden" name="searchWord" id="searchWord" value="${mesInspectionVO.searchWord}" />
 
 

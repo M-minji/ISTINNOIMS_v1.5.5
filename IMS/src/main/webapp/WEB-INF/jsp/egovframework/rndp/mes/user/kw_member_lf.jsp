@@ -17,7 +17,7 @@ function memberMenu(key){
 
 
 
-<form name="listForm" id="listForm">		
+<form name="listForm" id="listForm" autocomplete="off">		
 	<input type="hidden" name="kMemberKey" id="kMemberKey" />
 	<input type="hidden" name="pageIndex" id="pageIndex" value ="1"/>
 	

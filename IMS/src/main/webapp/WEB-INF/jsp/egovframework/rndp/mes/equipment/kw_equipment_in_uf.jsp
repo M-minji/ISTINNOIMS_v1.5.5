@@ -747,7 +747,7 @@ function setToolTip(){
    	  overflow: hidden !important;
 	}
 </style>
-<form name="writeForm" id="writeForm" method="post" enctype="multipart/form-data">
+<form name="writeForm" id="writeForm" method="post" enctype="multipart/form-data" autocomplete="off">
 	<input type="hidden" name="searchWord" id="searchWord" value="${mesEquipmentVO.searchWord}">
 	<input type="hidden" name="pageIndex" id="pageIndex" value="${mesEquipmentVO.pageIndex}" />
 	<input type="hidden" name="recordCountPerPage" id="recordCountPerPage" value="${mesEquipmentVO.recordCountPerPage}" />
